@@ -6,7 +6,7 @@ akıl yürütme sırasında elde edilen dış bilgiyi kullanmanın mümkün oldu
 
 ![not1](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/83e9c55d-b637-47f0-a695-4458db7f9b7c)
 
-# List methods & functions
+# List methods & functions Sil
 
 planets.append('Pluto')
 
@@ -22,7 +22,7 @@ sorted(planets) #sıralar
 loud_short_planets = [planet.upper() + '!' for planet in planets if len(planet) < 6]
 loud_short_planets
 
-# Dictionaries
+# Dictionaries Sil
 
 numbers = {'one':1, 'two':2, 'three':3}
 
