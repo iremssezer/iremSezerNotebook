@@ -3,7 +3,7 @@
 akıl yürütme sırasında elde edilen dış bilgiyi kullanmanın mümkün olduğu düşünce zinciri (CoT)
 
 ## Python
-
+sil!
 ![not1](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/83e9c55d-b637-47f0-a695-4458db7f9b7c)
 
 # List methods & functions Sil
