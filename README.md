@@ -61,9 +61,7 @@ mi_scores[::3]  # show a few features with their MI scores
 
 # Outlier Detection - aykırı gözlem
 
-
-!(https://www.veribilimiokulu.com/wp-content/uploads/2019/12/image-1.png)
-
+![not22](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/6cb3dd3c-0802-4e52-9536-395c81fdf27c)
 
 
 
