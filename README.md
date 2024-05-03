@@ -285,4 +285,55 @@ ax[1].set_title("Normalized data")
 plt.show()
 ![norm](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/825475f0-52d2-4051-b527-58f4eb1160be)
 
+## One-hot Encoding
 
+![ohc](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/707300af-61b3-4631-b1d5-5bef9b86f52f)
+
+![llm1](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/c6d6b628-4384-4487-a848-e28d29d70214)
+
+![llm2](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/8e780dce-d81d-43d6-9bf4-013649d901d3)
+
+![llm3](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/db4b9412-b616-4063-9159-17c83556ef2b)
+
+![llm4](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/11f23374-376e-4a76-80ca-9e5eb89683ad)
+
+![z1](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/4031544d-bc1c-4d7b-9679-6065d74b1a08)
+
+## Few-Shot Learning
+
+![image](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/1a0870be-b41c-4d15-9bef-bed132df511d)
+
+
+# GIT
+ 
+## Git Verileri Nasıl Yönetir?
+
+![n2](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/8fb6e3a1-1e1f-4e80-8012-33deced35575)
+
+# ChatGPT Prompt Engineering for Developers 
+
+![t1](https://github.com/iremssezer/iremSezerNotebook/assets/74788732/9d96ea8c-5633-4041-94ac-af7d86325178)
+
+Delimiters can be anything like: ```, """, < >, <tag> </tag>, :
+
+---
+text = f"""
+You should express what you want a model to do by \ 
+providing instructions that are as clear and \ 
+specific as you can possibly make them. \ 
+This will guide the model towards the desired output, \ 
+and reduce the chances of receiving irrelevant \ 
+or incorrect responses. Don't confuse writing a \ 
+clear prompt with writing a short prompt. \ 
+In many cases, longer prompts provide more clarity \ 
+and context for the model, which can lead to \ 
+more detailed and relevant outputs.
+"""
+prompt = f"""
+Summarize the text delimited by triple backticks \ 
+into a single sentence.
+```{text}```
+"""
+response = get_completion(prompt)
+print(response)
+---
